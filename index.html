@@ -6,6 +6,7 @@
 
     <title>Todo App</title>
 
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
 </head>
 
@@ -25,8 +26,18 @@
     </div>
     <div class="maindiv">
         <input type="text" id="todo-item" placeholder="Enter Todo">
-        <button onclick="add_todo_item()">ADD ITEM</button>
-        <button onclick="deleteAll()">Delete All</button>
+        <button onclick="add_todo_item()"  type="button" class="btn btn-outline-primary">
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            ADD ITEM</button>
+        <button onclick="deleteAll()"  type="button" class="btn btn-outline-primary">
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            Delete All</button>
 
         <ul id="list">
 

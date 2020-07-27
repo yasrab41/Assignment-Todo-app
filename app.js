@@ -14,7 +14,7 @@ function add_todo_item(){
 
     //create delete button
     var delbtn=document.createElement('button')
-    delbtn.setAttribute('class','btn');
+    delbtn.setAttribute('class','btn btn-outline-primary');
     delbtn.setAttribute('onclick','deleteItem(this)');
     var delText=document.createTextNode("Delete");
     delbtn.appendChild(delText);
@@ -23,7 +23,7 @@ function add_todo_item(){
     //create edit button on some list
     var editbtn=document.createElement('button');
     var editText=document.createTextNode('Edit');
-    editbtn.setAttribute('class','btn');
+    editbtn.setAttribute('class','btn btn-outline-primary');
     editbtn.setAttribute('onclick','editItem(this)')
     editbtn.appendChild(editText);
 
